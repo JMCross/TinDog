@@ -81,8 +81,6 @@ p {
     right: 30%;  
 }
 
-
-
 .testimonial-image {
     width: 15%;
     border-radius: 100%;
@@ -192,3 +190,13 @@ p {
     transition: ease-in-out;
 }
 
+@media (max-width: 1110px) {
+    .dope-header {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.block {
+    background-color: #ef8172
+}
