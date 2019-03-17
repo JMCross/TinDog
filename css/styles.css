@@ -10,8 +10,23 @@ body {
 h1 {
     font-family: Montserrat;
     font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: montserrat;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 .container-fluid{
@@ -49,5 +64,54 @@ h1 {
 
 .title-image {
     width: 60%;
-    transform: rotate(30deg);
+    transform: rotate(25deg);
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Features section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 60px;
 }
