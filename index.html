@@ -17,9 +17,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
+
 
 <section id="title">
 
@@ -33,16 +35,16 @@
       <div class="collapse navbar-collapse" id="navbarToggle">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="">Contact</a>
+                  <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Pricing</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Testimonials</a>
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Download</a>
+                  <a class="nav-link" href="#cta">Download</a>
               </li>
           </ul>
       </div>
@@ -141,11 +143,11 @@
 
 <section id="pricing">
 
-  <h2>A Plan for Every Dog's Needs</h2>
+  <h2 class="plan">A Plan for Every Dog's Needs</h2>
   <p>Simple and affordable price plans for your and your dog.</p>
 
-  <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
+  <div class="pricing-column card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-md">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">Free</h4>
       </div>
@@ -156,10 +158,10 @@
           <li>10 Messages Per Day</li>
           <li>Unlimited App Usage</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
       </div>
     </div>
-    <div class="card mb-4 shadow-sm">
+    <div class="card mb-4 shadow-md">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">Pro</h4>
       </div>
@@ -170,10 +172,10 @@
           <li>Unlimited Messages</li>
           <li>Unlimited App Usage</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+        <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
       </div>
     </div>
-    <div class="card mb-4 shadow-sm">
+    <div class="card mb-4 shadow-md">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">Desperate</h4>
       </div>
@@ -185,7 +187,7 @@
           <li>Unlimited Messages</li>
           <li>Unlimited App Usage</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+        <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
       </div>
     </div>
   </div>
@@ -196,10 +198,12 @@
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+  
+  <div>
+    <h4>Find the True Love of Your Dog's Life Today.</h4>
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
+  </div>
 
   </section>
 
@@ -208,6 +212,10 @@
 
   <footer id="footer">
 
+    <i class="socials fab fa-facebook"></i>
+    <i class="socials fab fa-twitter"></i>
+    <i class="socials fab fa-instagram"></i>
+    <i class="socials far fa-envelope"></i>
     <p>© Copyright 2019 TinDog</p>
 
   </footer>

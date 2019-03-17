@@ -25,12 +25,19 @@ h3 {
     font-weight: 900;
 }
 
+h4 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 0 25%;
+}
+
 p {
     color: #8f8f8f;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+.container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* Navigation bar */
@@ -57,15 +64,20 @@ p {
 /* Download btns */
 
 .download-btn {
-    margin: 5% 5% 5% 0;
+    margin: 3% 3% 5% 0;
 }
 
 /* Images */
 
+
 .title-image {
-    width: 60%;
+    width:50%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;  
 }
+
+
 
 .testimonial-image {
     width: 15%;
@@ -77,6 +89,8 @@ p {
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -115,3 +129,62 @@ p {
     width: 15%;
     margin: 20px 20px 60px;
 }
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1110px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        padding: 3% 3%;
+        transform: rotate(0)
+    }
+
+    .testimonial-image {
+        width: 22%;
+    }
+
+    .plan {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.socials {
+    margin: 20px 10px;
+}
+
+.socials::before {
+    border-color: #8f8f8f;
+}
+
+.socials:hover::before {
+    border-width: 1px;
+    border: solid;
+    transition: ease-in-out;
+}
+
