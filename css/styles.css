@@ -190,6 +190,10 @@ p {
     transition: ease-in-out;
 }
 
+a {
+    color: inherit;
+}
+
 @media (max-width: 1110px) {
     .dope-header {
         text-align: center;
